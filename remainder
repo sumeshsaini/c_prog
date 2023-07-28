@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+    int a,b; // only when a>b 
+    printf("Enter the value Divedend : ");
+    scanf("%d",&a);
+    printf("\n");
+    printf("Enter the value Divisor  : ");
+    scanf("%d",&b);
+    int q = a/b;
+    int r = a-b*q;// as we know that Divisor*quotient+remainder=Divedend
+    printf("So the remainder when %d is divide by %d is : %d",a,b,r);
+    return 0;
+}
